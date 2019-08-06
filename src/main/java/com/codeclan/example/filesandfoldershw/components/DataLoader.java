@@ -26,7 +26,7 @@ public class DataLoader implements ApplicationRunner {
 
     public void run(ApplicationArguments args) {
 
-        
+
 
     }
 }
