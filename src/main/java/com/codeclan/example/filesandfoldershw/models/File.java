@@ -26,11 +26,10 @@ public class File {
     @JoinColumn(name = "folder_id", nullable = false)
     private Folder folder;
 
-    public File(String name, String extension, int size, Long id, Folder folder) {
+    public File(String name, String extension, int size, Folder folder) {
         this.name = name;
         this.extension = extension;
         this.size = size;
-        this.id = id;
         this.folder = folder;
     }
 
